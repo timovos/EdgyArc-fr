@@ -78,11 +78,12 @@ margin-left: calc(-16px - 2 * (var(--toolbarbutton-inner-padding) + var(--uc-too
     transition: width 300ms ease-in-out !important;
   
   }
-  
+
+  @media (-moz-bool-pref:"af.edgyarc.centered-url") {  
   #urlbar:not([focused]) .urlbar-input:not([focused]) {
     text-align: center !important;
   }
-  
+  }
   
   
   
